@@ -1,0 +1,14 @@
+@media screen and (max-width:600px) {
+  .big-card-container{
+    margin-left: 0;
+    margin-right: 0;
+    height: 100%;
+    margin-bottom: 40px;
+
+  }
+
+  .big-card-descricao{
+    margin-top: 10px;
+  }
+
+}
