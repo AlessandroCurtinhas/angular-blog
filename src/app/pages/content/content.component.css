@@ -1,0 +1,27 @@
+.conteudo-container{
+  width: 100%;
+  height: 100vh;
+
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.conteudo-descricao{
+  margin-top: 15px;
+}
+
+.conteudo-capa > img {
+  border: 5px solid grey;
+  width: 500px;
+  min-width: 500px;
+  height: 300px;
+}
+
+.conteudo-descricao > p {
+  margin-top: 20px;
+  color: gray;
+}
