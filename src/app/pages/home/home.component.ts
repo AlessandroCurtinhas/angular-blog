@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {dataFake} from '../../data/dataFake';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  listaConteudo:any [] = [];
+
   constructor() { }
 
   ngOnInit(): void {
+    dataFake.forEach(element => {
+      this.listaConteudo.push(element)
+    });
   }
-
 }
